@@ -1,0 +1,32 @@
+modLoader="javafml" #mandatory
+
+loaderVersion="[36,)"
+
+license="MIT"
+
+[[mods]] #mandatory
+modId="portaldoors"
+version="${file.jarVersion}"
+displayName="Portal Doors"
+credits="Idea from gigaherz. With code from Citrine." #optional
+authors="Curle" #optional
+
+description='''
+Link doors as if they were portals. Use keys to create a network of portals.
+
+Idea from gigaherz. This mod will be replaced by functionally identical code in his Ender Thing mod.
+'''
+
+[[dependencies.portaldoors]]
+    modId="forge"
+    mandatory=true
+    versionRange="[36,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.portaldoors]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5,1.17)"
+    ordering="NONE"
+    side="BOTH"
